@@ -23,7 +23,7 @@ function draw() {
   g.setFontAlign(1,1); // align right bottom
   g.drawString(time, X, Y, true /*clear background*/);
   // draw the seconds (2x size 7 segment)
-/*  g.setFont("7x11Numeric7Seg",2); */
+  g.setFont("7x11Numeric7Seg",2); /*  */
 //  g.drawString(("0"+d.getSeconds()).substr(-2), X+30, Y, true /*clear background*/);
 
 }
@@ -61,6 +61,7 @@ draw();
 ButtonPress();
 
 draw();
+
 /*
 var secondInterval = setInterval(draw, 3000);
 */
